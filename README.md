@@ -1,56 +1,141 @@
-IT-Support-Operations-Analysis
-Analyze IT support tickets to measure agent performance, resolution efficiency, and employee satisfaction, and to guide data‑driven decisions on technology investment, training, and staffing.
+📊 IT Support Operations Analysis
+=================================
 
-Project Overview
-This project analyzes a historical IT ticket dataset (2016–2020) to understand how effectively the support team handles increasing workloads, which request categories cause delays, and how agent performance varies over time. The insights are summarized in an interactive Excel/BI dashboard.
+Analyze IT support tickets to measure agent performance, resolution efficiency, and employee satisfaction, enabling data-driven decisions on tools, training, and staffing.
 
-Objectives
-Measure ticket volume trends, resolution times, and satisfaction over time.
-​
+📌 Project Overview
+-------------------
 
-Identify high‑ and low‑performing agents and training needs.
-​
+This project analyzes historical IT support ticket data (2016–2020) to evaluate how effectively support teams handle increasing workloads.
 
-Assess impact of request category and severity on resolution time.
-​
+It focuses on identifying:
 
-Evaluate effectiveness of current ticketing tools and prioritization rules.
-​
+*   Performance trends over time
+    
+*   Bottlenecks in ticket resolution
+    
+*   Variations in agent efficiency
+    
 
-Support decisions on investing in tools, training, or headcount.
-​
+The final output is an **interactive Excel/BI dashboard** for business insights.
 
-Data & Methods
-Source: Tickets sheet + IT_Agents sheet (cleaned and standardized).
-​
+🎯 Objectives
+-------------
 
-Cleaning: Fixed categorical inconsistencies (Priority, Severity), validated nulls, and joined agent metadata.
-​
+*   Measure ticket volume, resolution time, and satisfaction trends
+    
+*   Identify high- and low-performing agents
+    
+*   Analyze impact of ticket category and severity
+    
+*   Evaluate current prioritization and tooling effectiveness
+    
+*   Support decisions on hiring, training, and technology investments
+    
 
-Analysis: Excel formulas, pivot tables, correlation, and derived KPIs (e.g., satisfaction‑to‑resolution ratio).
-​
+🧹 Data & Methods
+-----------------
 
-Key Insights
-Workload has grown steadily, but average resolution time remains ~4.5 days with improving satisfaction.
-​
+**Data Sources:**
 
-Hardware and System tickets are the main bottlenecks, with the longest resolution times.
-​
+*   Tickets sheet
+    
+*   IT\_Agents sheet
+    
 
-Veteran agents resolve tickets faster with higher satisfaction; several agents need targeted training.
-​
+**Data Preparation:**
 
-Tools are stable but prioritization logic for Major/Urgent tickets needs automation.
-​
+*   Cleaned inconsistent categorical values (Priority, Severity)
+    
+*   Handled null values
+    
+*   Joined agent metadata
+    
 
-Dashboard
-The dashboard highlights:
+**Analysis Techniques:**
 
-Ticket volume and satisfaction trends
+*   Excel formulas & Pivot Tables
+    
+*   KPI calculations
+    
+*   Correlation analysis
+    
 
-Resolution time by category and severity
-<img width="2151" height="996" alt="image" src="https://github.com/user-attachments/assets/fb0dd8b6-356d-49cd-9a01-62d71cde608e" />
+**Derived Metrics:**
 
-Agent and seniority performance
+*   Average Resolution Time
+    
+*   Satisfaction Score Trends
+    
+*   Satisfaction-to-Resolution Ratio
+    
 
-Attach your dashboard screenshot here in GitHub
+📈 Key Insights
+---------------
+
+*   📊 Ticket volume has steadily increased, while resolution time remains stable (~4.5 days)
+    
+*   😊 Customer satisfaction has improved despite higher workload
+    
+*   🖥️ Hardware & System issues are major bottlenecks
+    
+*   👨‍💼 Experienced agents perform significantly better
+    
+*   ⚠️ Urgent/Major ticket prioritization needs automation
+    
+
+📊 Dashboard
+------------
+<img width="2151" height="996" alt="image" src="https://github.com/user-attachments/assets/cff4595f-9810-4fc4-baba-1cc0a306b6ed" />
+
+The dashboard provides:
+
+*   Ticket volume trends
+    
+*   Satisfaction analysis
+    
+*   Resolution time by category & severity
+    
+*   Agent performance comparison
+    
+*   Seniority-based insights
+    
+
+🛠️ Tools Used
+--------------
+
+*   Microsoft Excel
+    
+*   Pivot Tables & Charts
+    
+*   Data Cleaning Techniques
+    
+*   KPI Modeling
+    
+
+🚀 Business Impact
+------------------
+
+This analysis helps organizations:
+
+*   Improve support efficiency
+    
+*   Optimize workforce planning
+    
+*   Reduce resolution delays
+    
+*   Enhance employee satisfaction
+    
+*   Make smarter IT investment decisions
+    
+
+📌 Future Improvements
+----------------------
+
+*   Add predictive modeling for ticket resolution
+    
+*   Integrate real-time dashboard (Power BI/Tableau)
+    
+*   Implement automated prioritization algorithms
+    
+*   Expand dataset for deeper trend analysis
